@@ -1,0 +1,1252 @@
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(0px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(-20px);
+    }
+ }
+
+
+ .bell-parent {
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+ }
+ .bell-img {
+    position: absolute;
+    bottom: 5rem;
+    right: 1rem;
+    border: solid #444 1px;
+    display: none;
+  transition: all 0.25s;
+  background-color: white
+ }
+ .bell-img i {
+   color: rgb(88, 88, 88);
+   font-size: 30px;
+  transition: all 0.25s;
+  margin: 1rem 1rem 0 0;
+
+ }
+ .bell-img p {
+    color: black;
+    line-height: 30px;
+  transition: all 0.25s;
+  padding: 2rem 2rem;
+ }
+ .bell-img img {
+  transition: all 0.25s;
+  height: 300px;
+ }
+ .bell {
+    background-color: #444;
+    padding: .5rem;
+    transition: .5s;
+    border-radius: 50px;
+ }
+ .bell:hover .bell-title {
+    transition: .5s;
+    opacity: 1;
+ }
+ .bell:hover {
+    transition: .5s;
+    background-color: #444444a2;
+ }
+ .bell:hover #bell-i {
+    transition: .5s;
+    border: none;
+    font-size: 40px;
+    opacity: .5;
+ }
+#bell-i {
+    font-size: 30px;
+    color: white;
+    border: solid white 3px;
+    border-radius: 50px;
+    transition: .5s;
+    padding: .5rem;
+    
+ }
+ .bell-title {
+    position: absolute;
+    margin-right: 1rem;
+    background-color: #444;
+    padding: .5rem;
+    border-radius: 5px 20px 20px 5px;
+    transition: .5s;
+    color: white;
+    opacity: 0;
+    right: 4rem;
+    bottom: 1rem;
+    width: 90px;
+
+ }
+ 
+
+.footer {
+    position: sticky;
+    background-color: #213368;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(../img/footer_pattern.5cc136e03c9d4a1b.svg);
+    height: 1270px;
+    background-repeat: no-repeat;
+    background-position: top;
+  transition: all 0.25s;
+  padding: 120px 0px;
+}
+
+
+.mega-ticket {
+    background: rgb(33,51,104);
+    background: -moz-linear-gradient(0deg, rgba(33,51,104,1) 14%, rgba(31,47,97,1) 58%, rgba(29,43,91,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(33,51,104,1) 14%, rgba(31,47,97,1) 58%, rgba(29,43,91,1) 100%);
+    background: linear-gradient(0deg, rgba(33,51,104,1) 14%, rgba(31,47,97,1) 58%, rgba(29,43,91,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#213368",endColorstr="#1d2b5b",GradientType=1);
+    width: 1150px;
+    padding: 50px 70px;
+    display: flex;
+    transition: all 0.25s;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.mt-1 {
+    margin-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.25s;
+
+
+}
+#underline-i {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: start !important;
+    transition: all 0.25s;
+
+  }
+.mt-title h1 {
+    font-family: DanaB;
+    font-size: 22px;
+    transition: all 0.25s;
+    line-height: 40px !important;
+  transition: all 0.25s;
+  text-align: right;
+  }
+  
+.mt-paragraph {
+    transition: all 0.25s;
+    margin-top: 20px;
+  }
+.mt-paragraph p {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    line-height: 21px;
+    transition: all 0.25s;
+    width: auto;
+    font-size: 20px;
+  transition: all 0.25s;
+  text-align: start;
+
+  }
+
+
+
+  .ticket-btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #ecbb28;
+    border: 0;
+    border-radius: 5px;
+    font-family: DanaB;
+    margin: 2rem 0;
+    transition: .25s;
+  transition: all 0.25s;
+  width: 140px;
+
+  }
+  .ticket-btn:hover {
+    background-color: #cda428;
+    transition: .25s;
+  }
+  .ticket-btn a {
+  transition: all 0.25s;
+  color: rgb(255, 255, 255);
+  }
+
+  .mt-2 {
+    display: flex;
+    justify-content: center;
+  transition: all 0.25s;
+  align-items: center;
+    margin-right: 3.5rem;
+  }
+
+  .tolearn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+  transition: all 0.25s;
+  margin-bottom: 2rem;
+
+  }
+
+  .t-btn-1, .t-btn-2, .t-btn-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 1px #6c757d solid;
+    border-radius: 5px;
+    padding: 2rem 3.1rem;
+    margin: 0 1rem;
+    transition: .5s;
+
+  }
+  .t-btn-1:hover #t-btn-1-i-2, .t-btn-2:hover #t-btn-2-i-2, .t-btn-3:hover #t-btn-3-i-2 {
+    opacity: 1;
+    animation: fadeInLeft;
+    animation-duration: .5s;
+  }
+  .t-btn-1:hover, .t-btn-2:hover, .t-btn-3:hover {
+    background-color: rgba(29,43,91,1);
+    transition: .5s;
+  }
+  .t-btn-1 h1, .t-btn-2 h1, .t-btn-3 h1 {
+    font-family: DanaB;
+  transition: all 0.25s;
+  font-size: 18px;
+  }
+  .t-btn-1 h2, .t-btn-2 h2, .t-btn-3 h2 {
+    font-family: Dana;
+    font-size: 16px;
+  transition: all 0.25s;
+  margin-top: 10px;
+  }
+  .t-btn-1 div, .t-btn-2 div, .t-btn-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  transition: all 0.25s;
+  margin: 0 2rem 0 2rem;
+  }
+  #t-btn-1-i-1 {
+    font-size: 60px;
+  transition: all 0.25s;
+  color: rgb(42, 232, 42) !important;
+
+  }
+  #t-btn-2-i-1 {
+    font-size: 60px;
+  transition: all 0.25s;
+  color: rgb(0, 191, 255) !important;
+  }
+  #t-btn-3-i-1 {
+    font-size: 60px;
+  transition: all 0.25s;
+  color: orange !important;
+  }
+
+  #t-btn-1-i-2 {
+    font-size: 25px;
+    color: rgb(42, 232, 42) !important;
+  transition: all 0.25s;
+  opacity: 0;
+  }
+  #t-btn-2-i-2 {
+    font-size: 25px;
+    color: rgb(0, 191, 255) !important;
+  transition: all 0.25s;
+  opacity: 0;
+
+  }
+  #t-btn-3-i-2 {
+  transition: all 0.25s;
+  font-size: 25px;
+    color: orange !important;
+    opacity: 0;
+  }
+
+
+
+
+  .pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px #6c757d solid;
+    border-bottom: 1px #6c757d72 solid;
+  transition: all 0.25s;
+  padding: 4rem 0;
+    width: 1285px;
+
+  }
+  .pages-parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .p-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  transition: all 0.25s;
+  align-items: start;
+    margin: 0 5rem;
+  }
+  .p-p-column-mobile {
+    display: none;
+  }
+  .p-p-first {
+  transition: all 0.25s;
+  margin: 0 0 0 5rem !important;
+
+  }
+
+  .p-pages ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .p-p-ul-li-title {
+    font-family: DanaB;
+    margin-bottom: 1rem !important;
+
+  }
+  .p-pages ul li {
+    margin: .5rem 0;
+  }
+  .p-p-ul-li-a {
+    color: white;
+    font-size: 14px;    
+
+  }
+  .p-p-ul-li-a:hover {
+    color: #1a6ae2;
+  }
+
+
+
+.p-p-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  transition: all 0.25s;
+  align-items: start;
+
+}
+.p-p-c-page {
+    border-bottom: 1px #6c757d solid;
+    width: 250px;
+    justify-content: start;
+  transition: all 0.25s;
+  align-items: start;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+  .mini-ticket {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(29,43,91,1);
+  transition: all 0.25s;
+  width: 400px;
+    height: 190px;
+
+  }
+  .mit-btnandnum {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  transition: all 0.25s;
+  border-bottom: 1px #6c757d solid;
+
+  }
+  .mit-b-ticket-btn {
+    padding: 12px 15px !important;
+    font-size: 18px;
+    background-color: #ecbb28;
+    border: 0;
+    border-radius: 5px;
+    font-family: DanaB;
+    transition: .25s;
+    margin-left: 4.5rem;
+
+  }
+  .mit-b-ticket-btn:hover {
+    background-color: #cda428;
+    transition: .25s;
+  }
+  .mit-b-ticket-btn a {
+    color: rgb(255, 255, 255);
+  }
+  .mit-b-numandtext {
+    display: flex;
+  transition: all 0.25s;
+  flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 4.5rem;
+
+  }
+  .mit-b-numandtext h2 {
+  transition: all 0.25s;
+  font-family: DanaB;
+    font-size: 20px;
+  }
+  .mit-b-numandtext h6 {
+  transition: all 0.25s;
+  color: #81878c;
+    font-size: 12px;
+    
+  }
+
+
+  .mit-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  transition: all 0.25s;
+  align-items: center;
+    margin-top: 3rem;
+  }
+  .mit-socials h6 {
+    color: #81878c;
+  transition: all 0.25s;
+  font-size: 12px;
+    margin-left: 1.5rem;
+  }
+  .mit-socials ul {
+    display: flex;
+  transition: all 0.25s;
+  flex-direction: row;
+    align-items: end;
+    margin-right: 1.5rem;
+
+  }
+  .mit-socials ul li i {
+    color: #c2c2c2;
+    font-size: 30px;
+    margin: 0 .5rem;
+    cursor: pointer;
+  }
+  .mit-socials ul li i:hover {
+    color: #1a6ae2;
+
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: row;
+  transition: all 0.25s;
+  justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .c-copyright {
+  transition: all 0.25s;
+  margin-left: 22.2rem;
+
+  }
+  .c-copyright small {
+  transition: all 0.25s;
+  font-size: 15px;
+    font-family: DanaB;
+  }
+  .c-copyright small a {
+  transition: all 0.25s;
+  color: rgb(0, 176, 176);
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+
+  .c-trusts {
+  transition: all 0.25s;
+  margin-right: 22.2rem;
+
+
+  }
+  .c-trusts img {
+    height: 100px;
+    background-color: #434d70;
+    padding: 0.5rem;
+    margin: .25rem;
+  transition: all 0.25s;
+  border-radius: 5px;
+
+  }
+
+
+
+  @media only screen and (min-width:0px) and (max-width: 319px) {
+    .bell-parent {
+        display: none;
+    }
+    .footer {
+      height: 2250px;
+      padding: 120px 0px;
+    }
+    .mega-ticket {
+      width: 260px;
+      padding: 25px 20px;
+    }
+    .mt-1 {
+      margin-left: 0rem;
+    }
+    .mt-paragraph p {
+      font-size: 13px;
+    }
+    .mt-2 {
+      display: none;
+      
+   }
+    .tolearn {
+      flex-direction: column; 
+      width: 0px;
+
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      padding: 2rem 2rem 2rem 0rem;
+      margin: .5rem 0;
+      width: 300px;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: start;
+    }
+    .t-btn-1 h1, .t-btn-2 h1, .t-btn-3 h1 { 
+      font-size: 16px;
+      text-align: right;
+    }
+    .t-btn-1 h2, .t-btn-2 h2, .t-btn-3 h2 { 
+      font-size: 15px;
+      text-align: right;
+      
+    }
+    #t-btn-1-i-1 {
+      font-size: 60px;
+      margin-bottom: 0rem !important;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 300px;
+
+    }
+    .pages {
+      flex-direction: column;
+    }
+    .p-pages {
+      margin: 0 .2rem;
+    }
+    .pages-parent {
+      flex-direction: row;
+    }
+    .p-p-column-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5rem;
+    }
+    .p-p-column {
+      display: none;
+    }
+    .p-p-c-page {
+      width: 100px;
+  }
+    .mini-ticket {
+      width: 300px;
+      height: 220px;
+      margin-top: 2.5rem;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 1rem;
+  
+    }
+    .mit-b-ticket-btn a {
+      font-size: 15px;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 1rem;
+    }
+    .mit-socials {
+      flex-direction: column;
+      margin-top: 1.5rem;
+    }
+    .mit-socials h6 {
+      margin-bottom: 1rem;
+      text-align: right;
+      margin-left: 0;
+
+    }
+    .mit-socials ul {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 0;
+
+  
+    }
+    .copyright {
+      flex-direction: column;
+    }
+    .c-copyright {
+      margin-left: 0rem;
+      margin-bottom: 1rem;
+    
+      }
+    .c-trusts {
+      margin-right: 0rem;
+      margin-top: 1rem;
+      
+      }
+    .c-trusts img {
+      width: 60px;
+      height: 75px;
+      
+      }
+  }
+  @media only screen and (min-width:320px) and (max-width: 374px) {
+    .bell-parent {
+      display: none;
+
+    }
+    .footer {
+      height: 2250px;
+      padding: 120px 0px;
+    }
+    .mega-ticket {
+      width: 260px;
+      padding: 25px 20px;
+    }
+    .mt-1 {
+      margin-left: 0rem;
+    }
+    .mt-paragraph p {
+      font-size: 13px;
+    }
+    .mt-2 {
+      display: none;
+      
+   }
+    .tolearn {
+      flex-direction: column; 
+      width: 0px;
+
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      padding: 2rem 2rem 2rem 0rem;
+      margin: .5rem 0;
+      width: 300px;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: start;
+    }
+    .t-btn-1 h1, .t-btn-2 h1, .t-btn-3 h1 { 
+      font-size: 16px;
+      text-align: right;
+    }
+    .t-btn-1 h2, .t-btn-2 h2, .t-btn-3 h2 { 
+      font-size: 15px;
+      text-align: right;
+      
+    }
+    #t-btn-1-i-1 {
+      font-size: 60px;
+      margin-bottom: 0rem !important;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 300px;
+
+    }
+    .pages {
+      flex-direction: column;
+    }
+    .p-pages {
+      margin: 0 .2rem;
+    }
+    .pages-parent {
+      flex-direction: row;
+    }
+    .p-p-column-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5rem;
+    }
+    .p-p-column {
+      display: none;
+    }
+    .p-p-c-page {
+      width: 100px;
+  }
+    .mini-ticket {
+      width: 300px;
+      height: 220px;
+      margin-top: 2.5rem;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 1rem;
+  
+    }
+    .mit-b-ticket-btn a {
+      font-size: 15px;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 1rem;
+    }
+    .mit-socials {
+      flex-direction: column;
+      margin-top: 1.5rem;
+    }
+    .mit-socials h6 {
+      margin-bottom: 1rem;
+      text-align: right;
+      margin-left: 0;
+
+    }
+    .mit-socials ul {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 0;
+
+  
+    }
+    .copyright {
+      flex-direction: column;
+    }
+    .c-copyright {
+      margin-left: 0rem;
+      margin-bottom: 1rem;
+    
+      }
+    .c-trusts {
+      margin-right: 0rem;
+      margin-top: 1rem;
+      
+      }
+    .c-trusts img {
+      width: 60px;
+      height: 75px;
+      
+      }
+  }
+  @media only screen and (min-width:375px) and (max-width: 424px) {
+    .bell-parent {
+      display: none;
+
+    }
+    .footer {
+      height: 2200px;
+      padding: 120px 0px;
+    }
+    .mega-ticket {
+      width: 310px;
+      padding: 25px 20px;
+    }
+    .mt-1 {
+      margin-left: 0rem;
+    }
+    .mt-paragraph p {
+      font-size: 13px;
+    }
+    .mt-2 {
+      display: none;
+      
+   }
+    .tolearn {
+      flex-direction: column; 
+      width: 0px;
+
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      padding: 2rem 2rem 2rem 0rem;
+      margin: .5rem 0;
+      width: 350px;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: start;
+    }
+    .t-btn-1 h1, .t-btn-2 h1, .t-btn-3 h1 { 
+      font-size: 16px;
+      text-align: right;
+    }
+    .t-btn-1 h2, .t-btn-2 h2, .t-btn-3 h2 { 
+      font-size: 15px;
+      text-align: right;
+      
+    }
+    #t-btn-1-i-1 {
+      font-size: 60px;
+      margin-bottom: 0rem !important;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 350px;
+
+    }
+    .pages {
+      flex-direction: column;
+    }
+    .p-pages {
+      margin: 0 .2rem;
+    }
+    .pages-parent {
+      flex-direction: row;
+    }
+    .p-p-column-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5rem;
+    }
+    .p-p-column {
+      display: none;
+    }
+    .p-p-c-page {
+      width: 100px;
+  }
+    .mini-ticket {
+      width: 350px;
+      height: 220px;
+      margin-top: 2.5rem;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 2.5rem;
+  
+    }
+    .mit-b-ticket-btn a {
+      font-size: 15px;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 2.5rem;
+    }
+    .mit-socials {
+      flex-direction: column;
+      margin-top: 1.5rem;
+    }
+    .mit-socials h6 {
+      margin-bottom: 1rem;
+      text-align: right;
+      margin-left: 0;
+
+    }
+    .mit-socials ul {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 0;
+
+  
+    }
+    .copyright {
+      flex-direction: column;
+    }
+    .c-copyright {
+      margin-left: 0rem;
+      margin-bottom: 1rem;
+    
+      }
+    .c-trusts {
+      margin-right: 0rem;
+      margin-top: 1rem;
+      
+      }
+  }
+  @media only screen and (min-width:425px) and (max-width: 767px) {
+    .bell-parent {
+      display: none;
+
+    }
+    .footer {
+      height: 2200px;
+      padding: 120px 0px;
+    }
+    .mega-ticket {
+      width: 350px;
+      padding: 25px 20px;
+    }
+    .mt-1 {
+      margin-left: 0rem;
+    }
+    .mt-paragraph p {
+      font-size: 13px;
+    }
+    .mt-2 {
+      display: none;
+      
+   }
+    .tolearn {
+      flex-direction: column; 
+      width: 0px;
+
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      padding: 2rem 2rem 2rem 0rem;
+      margin: .5rem 0;
+      width: 390px;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: start;
+    }
+    .t-btn-1 h1, .t-btn-2 h1, .t-btn-3 h1 { 
+      font-size: 16px;
+      text-align: right;
+    }
+    .t-btn-1 h2, .t-btn-2 h2, .t-btn-3 h2 { 
+      font-size: 15px;
+      text-align: right;
+      
+    }
+    #t-btn-1-i-1 {
+      font-size: 60px;
+      margin-bottom: 0rem !important;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 60px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 390px;
+
+    }
+    .pages {
+      flex-direction: column;
+    }
+    .p-pages {
+      margin: 0 .2rem;
+    }
+    .pages-parent {
+      flex-direction: row;
+    }
+    .p-p-column-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5rem;
+    }
+    .p-p-column {
+      display: none;
+    }
+    .p-p-c-page {
+      width: 100px;
+  }
+    .mini-ticket {
+      width: 350px;
+      height: 220px;
+      margin-top: 2.5rem;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 2.5rem;
+  
+    }
+    .mit-b-ticket-btn a {
+      font-size: 15px;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 2.5rem;
+    }
+    .mit-socials {
+      flex-direction: column;
+      margin-top: 1.5rem;
+    }
+    .mit-socials h6 {
+      margin-bottom: 1rem;
+      text-align: right;
+      margin-left: 0;
+
+    }
+    .mit-socials ul {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 0;
+
+  
+    }
+    .copyright {
+      flex-direction: column;
+    }
+    .c-copyright {
+      margin-left: 0rem;
+      margin-bottom: 1rem;
+    
+      }
+    .c-trusts {
+      margin-right: 0rem;
+      margin-top: 1rem;
+      
+      }
+  }
+  @media only screen and (min-width:768px) and (max-width: 1029px) {
+    .bell-parent {
+      display: none;
+
+    }
+    .footer {
+      height: 1500px;
+      padding: 120px 0px;
+    }
+    .mega-ticket {
+      width: 600px;
+      padding: 25px 50px;
+    }
+    .mt-1 {
+      margin-left: 1rem;
+  
+    }
+    .mt-paragraph p {
+      font-size: 13px;
+    }
+    .mt-2 {
+      margin-right: 1rem;
+      
+   }
+    .mt-2 img {
+      height: 250px;
+    }
+    .tolearn {
+      width: auto;
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      padding: 2rem 1rem;
+      margin: 0 1rem;
+      width: 210px !important;
+      height: 350px;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: center;
+    }
+    #t-btn-1-i-1 {
+      font-size: 100px;
+      margin-bottom: 2rem;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 100px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 100px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 700px;
+
+    }
+    .p-pages {
+      margin: 0 .2rem;
+    }
+    .p-p-c-page {
+      width: 100px;
+  }
+    .mini-ticket {
+      width: 250px;
+      height: 190px;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 0rem;
+  
+    }
+    .mit-b-ticket-btn a {
+      font-size: 15px;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 0rem;
+    }
+    .mit-socials {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    .mit-socials h6 {
+      margin-bottom: 1rem;
+      margin-left: 0;
+
+    }
+    .mit-socials ul {
+      margin-top: 1rem;
+      margin-right: 0;
+  
+    }
+    .c-copyright {
+      margin-left: 4rem;
+    
+      }
+    .c-trusts {
+      margin-right: 4rem;
+      
+      }
+  }
+  @media only screen and (min-width:1024px) and (max-width: 1439px) {
+    .footer {
+      height: 1500px;
+      padding: 120px 0px;
+  }
+    .mega-ticket {
+      width: 800px;
+      padding: 50px 70px;
+    }
+    .mt-2 img {
+      height: 250px;
+    }
+    .tolearn {
+      width: auto;
+    }
+    .t-btn-1, .t-btn-2, .t-btn-3 {
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      padding: 14rem 1rem 11rem 1rem !important;
+      margin: 0 1rem;
+      width: 290px !important;
+  
+    }
+    .t-btn-1 div, .t-btn-2 div, .t-btn-3 div { 
+      align-items: center;
+    }
+    #t-btn-1-i-1 {
+      font-size: 200px;
+      margin-bottom: 2rem;
+  
+    }
+    #t-btn-2-i-1 {
+      margin-bottom: 2rem;
+      font-size: 200px;
+    }
+    #t-btn-3-i-1 {
+      margin-bottom: 2rem;
+      font-size: 200px;
+    }
+    .pages {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 4rem 0;
+      width: 930px;
+
+    }
+    .p-pages {
+      margin: 0 1rem;
+    }
+    .p-p-c-page {
+      width: 180px;
+  }
+    .mini-ticket {
+      width: 400px;
+      height: 190px;
+
+    }
+    .mit-b-ticket-btn {
+      margin-left: 2rem;
+  
+    }
+    .mit-b-numandtext {
+      margin-right: 2rem;
+  
+    }
+
+    .mit-socials h6 {
+      margin-left: -2.5px;
+    }
+    .mit-socials ul {
+      margin-right: -2.5px;
+  
+    }
+    .c-copyright {
+      margin-left: 10rem;
+    
+      }
+    .c-trusts {
+      margin-right: 10rem;
+      
+      }
+
+
+  }
